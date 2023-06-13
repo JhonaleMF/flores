@@ -13,7 +13,6 @@ def read_dataset():
     global data
     my_dataset = './data/iris.csv'
     data = explore_data(my_dataset)
-<<<<<<< HEAD
     
 def show_dataset():
     if st.checkbox("Preview Dataset"):    
@@ -50,7 +49,6 @@ def show_dataset_2():
     # Show Summary
     if st.checkbox("Show Summary of Dataset"):
         st.write(data.describe())
-=======
 
 def select_column():
     # Select A Column
@@ -69,5 +67,4 @@ def select_column():
         st.write(data[["Species"]])
     else:
         st.write("Select a Column") 
->>>>>>> epic-2-ticket-2
 
